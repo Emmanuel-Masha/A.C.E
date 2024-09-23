@@ -1,5 +1,3 @@
-# simple interest
-
 //calculating simple interest
 #include <stdio.h>
 
@@ -16,10 +14,9 @@ int main() {
     printf("Enter time (in years,): ");
     scanf("%d", &time);
 
-    // Calculate simple interest
     simple_interest = (principal * rate * time) / 100;
 
     printf("Simple Interest = %d\n", simple_interest);
 
     return 0;
-}# c-program
+}
